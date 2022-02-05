@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Building</title>
+    <style>
+        .divOne {
+            background-color: red;
+            width: 1000px; height: 400px;
+            padding: 50px;
+            margin: auto;
+        }
+        .innerDivOne, .innerDivTwo {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: lightblue;
+            padding: 50px;
+            margin-bottom: 25px;
+            height: 80px;
+        }
+        #one {
+            height: 100px; width: 400px;
+            background-color: green;
+        }
+        #two {
+            height: 100px; width: 400px;
+            background-color: lightcoral;
+        }
+        #three {
+            height: 100px; width: 400px;
+            background-color: violet;
+        }
+        #four {
+            height: 100px; width: 400px;
+            background-color: navy;
+        }
+        #one p {
+            text-align: center;
+            margin-top: 38px;
+            color: white; font-weight: bold;
+        }
+        #two p {
+            text-align: center;
+            margin-top: 38px;
+            color: white; font-weight: bold;
+        }
+        #three p {
+            text-align: center;
+            margin-top: 38px;
+            color: white; font-weight: bold;
+        }
+        #four p {
+            text-align: center;
+            margin-top: 38px;
+            color: white; font-weight: bold;
+        }
+        .btn1 {
+            padding: 10px 50px;
+            margin-left: 430px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            margin-top: -10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><u>Box Building</u></h1>
+    <div class="divOne">
+       <div class="innerDivOne">
+           <div id="one"><p><u>This is First Div</u></p></div>
+           <div id="two"><p><u>This is Second Div</u></p></div>
+       </div>
+       <div class="innerDivTwo">
+        <div id="three"><p><u>This is Third Div</u></p></div>
+        <div id="four"><p><u>This is Fourth Div</u></p></div>
+    </div>
+    <button class="btn1" onclick="submitBtn()"><u>Submit</u></button>
+    </div>
+</body>
+<script>
+    function submitBtn(){
+        window.location.href = "https://www.google.com/";
+    }
+</script>
+</html>

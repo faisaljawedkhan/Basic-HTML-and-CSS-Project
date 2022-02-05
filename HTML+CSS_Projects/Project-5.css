@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 18px 0;
+    margin-top: 0px;
+}
+header nav {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 18px 0;
+    margin-top: -19px;
+}
+header nav span {
+    margin: 0 30px;
+    font-size: 20px;
+}
+header nav span a {
+    text-decoration: none;
+    color: black;
+}
+.container-1 {
+    width: 800px;
+    text-align: left;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.container-2 {
+    width: 800px;
+    text-align: left;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+h2 {
+    text-align: center;
+    padding: 15px 0;
+}
+.container-3 {
+    width: 800px;
+    text-align: left;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+}
+footer a {
+    text-decoration: none;
+    color: green;
+}
+@media screen and (max-width:600px) {
+    header h1 {
+        padding: 18px 0;
+        margin-top: 0px;
+    }
+    header nav {
+        padding: 9px 0;
+    }
+    header nav span {
+        margin: 0 15px;
+        font-size: 18px;
+    }
+    .container-1 {
+        width: 350px;
+        font-size: 15px;
+    }
+    .container-2 {
+        width: 350px;
+        font-size: 15px;
+    }
+    .container-3 {
+        width: 350px;
+        font-size: 15px;
+    }
+    footer {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:900px) {
+    .container-1 {
+        width: 550px;
+        font-size: 16px;
+    }
+    .container-2 {
+        width: 550px;
+        font-size: 16px;
+    }
+    .container-3 {
+        width: 550px;
+        font-size: 16px;
+    }
+    footer {
+        font-size: 17px;
+    }
+}

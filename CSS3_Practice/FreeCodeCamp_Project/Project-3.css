@@ -1,0 +1,119 @@
+body {
+    margin: 0; padding: 0; font-family: 'Source Sans Pro', sans-serif; background-color: #eee;
+}
+
+/* Head Section */
+
+header {
+    width: 100%;
+}
+nav { width: 100%;
+    display: flex; align-items: center; justify-content: space-between; margin: 0; background-color: #eee; padding: 0 35px; height: 80px; top: 0; position: fixed; box-sizing: border-box;
+}
+.image-1 img {
+    width: 60px; height: 60px; margin-left: 50px; margin-top: 5px;
+}
+.menu-items {
+    margin-right: 20px;
+}
+.menu-items ul {
+    display: flex; flex-direction: row; 
+}
+.menu-items ul li {
+    list-style: none; margin: 0 50px;
+}
+.menu-items ul li a {
+    text-decoration: none; color: black;
+}
+
+/* Section - 1 */
+
+#section-1 {
+    width: 100%; 
+}
+.first-section {
+    padding-top: 70px; text-align: center;
+}
+.first-section .input-box-1 {
+     width: 20%; height: 23px; margin-bottom: 20px;
+}
+.first-section .btn-1 {
+    width: 150px; height: 35px; font-size: 16px; font-weight: 800; background-color: gold; border: none; cursor: pointer;
+}
+
+/* Section - 2 */
+
+#section-2 {
+    width: 70%; margin: 3% 30%;
+}
+table tr td h3 {
+    font-size: 24px;
+}
+table tr td p {
+    font-size: 16px; margin-top: -20px; text-align: left;
+}
+table tr td i {
+    color: orange; font-size: 50px; margin-left: -175px; padding: 50px; margin-top: 20px;
+}
+/* #section-2 {
+    width: 100%; padding: 35px; display: flex; justify-content: space-evenly; flex-direction: row; text-align: center;
+}
+#second-section {
+     text-align: center; margin: 50px;  width: 100%; box-sizing: border-box;
+     display: flex; justify-content: space-evenly; flex-direction: row;
+}
+.ist-half-part {
+     width: 25%; background-color: orangered; 
+}
+.ist-half-part i {
+    color: orange; font-size: 50px; position: relative; 
+}
+.second-half-part {
+     width: 75%;  
+} */
+
+/* Section - 3 */
+
+/* #section-3 {
+    width: 100%;
+} */
+
+#video-section {
+    padding: 5px 45px 45px 45px; text-align: center;
+}
+#video-section iframe {
+    width: 100%; height: 425px;
+}
+
+/* Section - 4 */
+
+#card-section {
+    display: flex; flex-direction: row; justify-content: space-evenly; text-align: center; padding: 30px; 
+}
+.card-number {
+    border: 2px solid black; height: 300px; width: 300px;
+}
+.card-number h4 {
+    background-color: lightgray; height: 35px; padding-top: 10px; margin-top: 0px;
+}
+.card-number p {
+    margin: 10px 0; font-size: 16px; font-weight: 400;
+}
+.btn-2 {
+    margin-top: 12px; width: 100px; height: 40px; background-color: gold; color: black; border: none; cursor: pointer; font-size: 16px;
+}
+
+/* Footer */
+
+footer {
+    width: 80%; margin: 0 10%; background-color: lightgray; padding: 10px; text-align: right;
+}
+footer span {
+    margin: 0 10px;
+}
+footer span a {
+    text-decoration: none; color: black;
+}
+footer p {
+    margin: 7px 10px; font-size: 14px;
+}

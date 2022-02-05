@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    background-color: rgb(77, 77, 241);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo img {
+    width: 125px;
+    padding-left: 50px;
+    padding-right: 175px;
+}
+nav ul {
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+nav{
+    display: flex;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.container-1 {
+    background-image: url("https://cdn.shopify.com/s/files/1/2496/0248/files/comparison-header-background.jpg?v=1596777873");
+    background-size: cover;
+}
+.para-1 {
+    padding-top: 125px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgb(54, 54, 216);
+}
+.para-2 {
+    padding-left: 50px;
+    font-size: 35px;
+    color: rgb(6, 6, 253);
+}
+.para-3 {
+    padding-left: 50px;
+    font-size: 20px;
+    color: rgb(72, 41, 211);
+}
+.btn {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 12px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+.para-4 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: rgb(49, 49, 230);
+}
+.para-4 a {
+    color: rgb(58, 58, 221);
+}
+.images {
+    margin-left: 85px;
+    width: 100px;
+    padding-top: 100px;
+}
+.box-1 {
+ display: inline-block;
+    margin: 0 6vw; 
+    
+}
+.para-5 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: blue;
+    margin-top: -1px;
+}
+.para-6 {
+    text-align: center;
+    font-size: 17px;
+}
+.para-7 {
+    text-align: center;
+    color: rgb(112, 112, 216);
+}
+.para-8 {
+    text-align: center;
+    padding: 45px 0px;
+}
+section .bed {
+    background-image: url("https://caspercontent.imgix.net/2ndL3nmJrsHGmA62pp5gBd/01a06e6011a46d451f508bfee9da880e/readyForBed-footer-desktop.jpg?auto=compress,format&q=65&w=1600");
+}
+.para-9 {
+    text-align: center;
+    padding-top: 155px;
+    font-size: 45px;
+    color: white;
+}
+.btn-2 {
+    margin-left: 43vw;
+    margin-bottom: 22vh;
+    font-size: 15px;
+    padding: 15px;
+    width: 175px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.btn-2:hover {
+    color: blue;
+    font-weight: bold;
+}
+footer {
+   background-color: rgb(89, 89, 216);
+    padding: 5px 0;
+}
+footer ul {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer ul li a:hover {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}

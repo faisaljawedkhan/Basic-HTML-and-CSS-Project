@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-image: url('https://banner2.cleanpng.com/20180326/kjq/kisspng-village-animation-cartoon-desktop-wallpaper-wallpa-farm-5ab96aa85eb532.5348286715221009043879.jpg');
+    background-size: cover;
+}
+
+
+
+
+#rocket {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fly 5s ease-in infinite;
+}
+
+
+@keyframes fly {
+    0% {
+        transform: translate(-50%, 0);
+    }
+    100% {
+        transform: translate(-50%, -100vh);
+    }
+}

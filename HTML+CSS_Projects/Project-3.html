@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/Project-3.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>SURVEY.COM</h1>
+    </header>
+    <main>
+        <h2>Submit Your Survey Today!</h2>
+        <form>
+            <label class="name">Your Name</label><br>
+            <input class="input-box" type="text" name="username" placeholder="Name" minlength="6" maxlength="16" required><br><br>
+           <label class="name">Your Email</label><br>
+            <input class="input-box" type="email" name="email" placeholder="Email" required><br><br>
+            <label class="name-2">Select Your Language</label><br>
+            <select class="dropdown" name="dropdown" id="language">
+                <option value="">...Please Choose an Option...</option>
+                <option value="html">HTML5</option>
+                <option value="css">CSS3</option>
+                <option value="javascript">JavaScript</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="react">React</option>
+                <option value="angular">Angular</option>
+                <option value="php">PHP</option>
+                <option value="ruby">Ruby</option>
+                <option value="c++">C++</option>
+                <option value="c#">C#</option>
+            </select><br><br>
+            <label class="name-1">How much Experience do you have?</label><br>
+            <label class="checkbox"><input type="checkbox" name="alpha">Fresher</label>
+            <label class="checkbox"><input type="checkbox" name="alpha">2 Years</label>
+            <label class="checkbox"><input type="checkbox" name="alpha">5 Years</label>
+            <label class="checkbox"><input type="checkbox" name="alpha">10 Years</label><br><br><br>
+            <button class="btn">Submit</button>   <button class="btn">Reset</button>
+        </form>
+    </main>
+    <footer>
+        <p>
+            Copyright&copy; <a href="#">YourSite.com</a>
+        </p>
+    </footer>
+</body>
+</html>

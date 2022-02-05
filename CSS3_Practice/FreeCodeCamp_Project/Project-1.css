@@ -1,0 +1,40 @@
+body {
+    background-color: white;  
+}
+#main {
+    background-color: #f2f6ff;
+    margin-bottom: 28px;
+    border-radius: 8px;
+}
+#title {
+    text-align: center;
+}
+#title h1 {
+    padding-top: 32px;
+    font-size: 45px;
+}
+#title p {
+    font-size: 18px;
+}
+#img-div {
+   text-align: center;
+   background-color: white;
+  margin: 0px 18px 0px 18px;
+}
+#img-caption {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#title-2 {
+    text-align: center;
+    padding: 18px 0px 18px 0px;
+}
+#tribute-info {
+    margin: 0% 30% 0% 30%;
+    line-height: 1.3;
+    font-size: 20px;
+}
+#footer {
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+}

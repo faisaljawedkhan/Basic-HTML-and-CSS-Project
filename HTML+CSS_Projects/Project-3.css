@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+h2 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+form {
+    background-color: white;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 32px;
+}
+main {
+    height: calc(91vh - 70px - 67px);
+}
+.name {
+   margin: 0 150px;
+   font-size: large;
+}
+.name-1 {
+    margin: 0 60px;
+    font-size: large;
+}
+.name-2 {
+    margin: 0 120px;
+    font-size: large;
+}
+.input-box {
+    margin: 0 90px;
+    width: 50%;
+    font-size: 15px;
+    border: 2px solid #ccc;
+}
+.dropdown {
+    margin: 0 80px;
+    width: 55%;
+    font-size: 15px;
+    border: 2px solid #ccc;
+}
+.checkbox {
+    margin-left: 20px;
+}
+.btn {
+    margin: 0 40px;
+    width: 25%;
+    background-color: #2c57ac;
+    padding: 12px 24px 12px 24px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    color: black;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 10px 0;
+}
+footer a {
+    text-decoration: none;
+    color: green;
+}

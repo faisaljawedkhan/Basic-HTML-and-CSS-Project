@@ -1,0 +1,76 @@
+/* ======================= iPad Layout ====================== */
+
+@media screen and (min-width:600px) and (max-width:992px) {
+   .container {width: 96%;}
+   .logo_area {width: 240px; margin-top: 20px;}
+   .right_header_area {width: 400px;}
+   form {display: none;}
+   .menu_area {width: 100%;}
+   .slider_inner {width: 96%;}
+   #service_area {height: 31vh;}
+   .btn-10 {margin-left: 50px;}
+   #work_area {height: 38vh;}
+   #contact_area {height: 28vh;}
+   .btn-11 {margin-left: 75px;}
+   #btn-last {width: 41%; height: 35px; }
+   footer {width: 96%;}
+}
+
+/* ======================= iPad Pro Layout ====================== */
+
+@media screen and (min-width:993px) and (max-width:1092px) {
+    .container {width: 96%;}
+    .logo_area {width: 240px; margin-top: 20px;}
+    .right_header_area {width: 400px;}
+    .menu_area {width: 100%;}
+    .slider_inner {width: 96%;}
+    #service_area {height: 20vh;}
+    .btn-10 {margin-left: 50px;}
+    #work_area {height: 28vh;}
+    #contact_area {height: 18vh;}
+    .btn-11 {margin-left: 75px;}
+    #right {margin-top: -8px;}
+    #btn-last {width: 38%; height: 30px; }
+    footer {width: 96%;}
+ }
+
+/* ======================= Mobile Layout ====================== */
+
+ @media screen and (min-width:200px) and (max-width:480px) {
+    .container {width: 96%;}
+    .logo_area {margin-left: 0px;}
+    .social_area {background: none; margin-right: 7px; border-radius: none;}
+    .top_menu {margin-right: -17px; margin-top: 3px; margin-bottom: 9px;}
+    .right_header_area {width: 400px;}
+    .menu_area {width: 100%;}
+    form {display: none;}
+    .menu_area ul {text-align: center; margin: 3px auto;}
+    .menu_area ul li {margin-right: 15px; margin-bottom: 10px;}
+    .slider_inner {padding: 9px 0; width: 96%;}
+    .child_service {text-align: center; padding: 0px 1%; width: 96%;}
+    #service_area {height: 103vh;}
+    #work_area {height: 164vh;}
+    .child_work {text-align: center; width: 96%; padding: 13px 1%;}
+    .child_work h4 {text-align: center;}
+    .child_work p {text-align: center;}
+    .btn-10 {margin-left: 200px;}
+    #contact_area {padding: 24px 0; border: none; height: 50vh;}
+    .child_contact {text-align: center; width: 96%;}
+    .child_contact h3 {margin-bottom: 20px;}
+    footer {width: 96%; margin: 370px auto; height: 7vh;}
+   #left {text-align: center;}
+   #right {text-align: center;}
+
+
+
+
+
+
+
+    /* .btn-10 {margin-left: 50px;}
+    #contact_area {height: 18vh;}
+    .btn-11 {margin-left: 75px;}
+    #right {margin-top: -8px;}
+    #btn-last {width: 38%; height: 30px; }
+    footer {width: 96%;} */
+ }

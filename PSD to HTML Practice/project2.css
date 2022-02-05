@@ -1,0 +1,356 @@
+body {
+    margin: 0; padding: 0; 
+}
+
+/* ================== Top Header Area =================== */
+.container1 {
+    width: 100%; 
+}
+.top_header {
+    background: #ba2e1f; clear: both; padding: 7px; height: 50px;
+}
+.ist_top_right {
+    margin-left: 10%;
+}
+.ist_top_right ul {
+    list-style: none; text-align: left;
+}
+.ist_top_right ul li {
+    display: inline-block; margin: 0 13px; position: relative;
+}
+.ist_top_right ul li::before {
+    position: absolute; content: "|"; color: #fff; top: -13%; right: -28%;
+}
+.ist_top_right ul li:last-child:before {
+   display: none;
+}
+.ist_top_right ul li a {
+    text-decoration: none; color: #fff; display: block;
+    transition: 0.3s ease all; font-size: 15px;
+}
+.ist_top_right ul li a:hover {
+    color: #000;
+}
+
+.second_top_left {
+    margin-right: 10%; text-align: right;
+}
+form {
+    margin-top: -3%;
+}
+form .input_box_1 {
+    outline: none; border: none; border-radius: 15px; height: 25px;
+    width: 200px; position: relative;
+}
+form i {
+    position: absolute; right: 150px; font-size: 15px; margin-top: 6px;
+    cursor: pointer;
+}
+form i:hover {
+    color: #ba2e1f;
+}
+
+/* ================== Second Header Area =================== */
+
+.container2 {
+    width: 100%; 
+}
+#navigation_area {
+    background: #fff; clear: both; padding: 50px 0; 
+}
+.below_top_header {
+    margin-left: 10%;
+}
+.logo_area img {
+    display: block; height: auto; float: left;
+}
+.social_icon_area {
+    float: right; margin-right: 12%;
+}
+.social_icon_area ul {
+    list-style: none;
+}
+.social_icon_area ul li {
+    display: inline-block; margin: 0 10px;
+}
+.social_icon_area ul li a {
+    text-decoration: none; 
+}
+.social_icon_area ul li a i {
+   font-size: 16px; width: 35px; height: 26px; padding-top: 8px; background: #1f1f1f; color: #fff; display: block; text-align: center; border-radius: 50%; transition: 0.3s ease all;
+}
+.social_icon_area ul li a:hover i.fa-twitter {
+    background: #00acee;
+}
+.social_icon_area ul li a:hover i.fa-linkedin-in {
+    background: #0076b2;
+}
+.social_icon_area ul li a:hover i.fa-pinterest {
+    background: #bd081c;
+}
+.social_icon_area ul li a:hover i.fa-google-plus-g {
+    background: #dc4b3e;
+}
+.social_icon_area ul li a:hover i.fa-rss {   
+    background: #f58023;
+}
+
+
+/* ================== Menu Area =================== */
+
+.container3 {
+    width: 80%; margin: 50px auto; border-radius: 7px;
+}
+#main_menu {
+    background: #1f1f1f; clear: both; padding: 15px 0; 
+}
+
+/* ================ Dropdown Wrapper ======================= */
+
+.dropdown-wrapper {
+    display: inline-block; position: relative;
+}
+.dropdown-wrapper:hover .dropdown {
+    display: block;
+}
+.dropdown {
+    width: 150px; border-top: 2px solid rgb(170, 210, 54); padding: 20px; position: absolute; right: 24px; background-color: white; box-shadow: 0 2px 5px #ccc; display: none;
+}
+.dropdown a {
+    text-decoration: none; display: block; border-bottom: 1px solid #ccc; padding: 4px; cursor: pointer; color: black;
+}
+.dropdown a:last-of-type {
+    border: 0;
+}
+.dropdown a:hover {
+    background: #81b300;
+}
+
+.inner_menu {
+    margin: 0 7%;
+}
+.menu_area .menu_12 {
+    text-decoration: none; margin: 0 12px; color: #fff; font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.menu_area .menu_12:hover {
+   color: #ba2e1f;
+}
+
+/* ================ Introduction Wrapper ======================= */
+
+.container4 {
+    width: 100%; margin: 50px auto 0 auto;
+}
+#intro_area {
+    background: #fff; padding: 15px 0; 
+}
+.introduction {
+    margin-left: 10%; display: flex; flex-direction: row; justify-content: space-between;
+}
+.left_picture_area img {
+    display: block; height: auto; 
+}
+.right_intro_area {
+    margin-right: 10%; margin-left: 5%;
+}
+.right_intro_area h1 {
+    font-size: 105px; text-align: left; font-weight: normal; letter-spacing: 0.5px; margin-top: 50px;
+}
+.right_intro_area p {
+    font-size: 18px; text-align: left; font-weight: normal; letter-spacing: 0.5px; margin-top: -85px; line-height: 1.3; margin-left: 3%; color: #1f1f1f;
+}
+#btn-1 {
+    margin-left: 75%; outline: none; border: none; background: #fff; cursor: pointer; font-size: 17px; color: #ba2e1f;
+}
+#btn-1:hover {
+    color: #000;
+}
+
+/* ================ Service Wrapper ======================= */
+
+.container5 {
+    width: 100%; margin-top: -15px;
+}
+#service_area {
+    background: #f2f2f2; padding: 20px 0;
+}
+.inner_service_area {
+    display: flex; flex-direction: row; justify-content: space-evenly; 
+}
+
+/* ===================== Right Service Area ======================= */
+
+.right_service_area {
+    margin-left: 10%; width: 30%;
+}
+.right_service_area h3 {
+    font-size: 25px; color: #1f1f1f;
+}
+.right_service_area img {
+   display: block; height: auto; margin-top: 50px;
+}
+.right_service_area p {
+    line-height: 1.5; font-size: 15px; letter-spacing: 0.5;
+}
+#btn-2 {
+    outline: none; background: #f2f2f2; border: none; font-size: 15px; cursor: pointer; color: #ba2e1f; margin-left: 140px;
+}
+#btn-2:hover {
+     color: #000;
+}
+
+/* ===================== Middle Service Area ======================= */
+
+.middle_service_area {
+    margin: 0 5%; width: 30%;
+}
+.middle_service_area h3 {
+    font-size: 25px; color: #1f1f1f;
+}
+.middle_service_area span img {
+    position: relative; top: 30px; margin-right: 15px;
+}
+.middle_service_area span p {
+    position: relative; top: 5px; letter-spacing: 0.5; 
+}
+ .area {
+    display: flex; flex-direction: row; justify-content: space-between; margin-top: -10px;
+}
+#btn-3 {
+    outline: none; background: #f2f2f2; border: none; font-size: 15px; cursor: pointer; color: #ba2e1f; margin-left: 120px; margin-top: 10px;
+}
+#btn-3:hover {
+    color: #000;
+}
+
+/* ===================== Left Service Area ======================= */
+
+.left_service_area {
+    margin-right: 10%; width: 30%;
+}
+.left_service_area h3 {
+    font-size: 25px; color: #1f1f1f;
+}
+.left_service_area .top p {
+    line-height: 1.5; font-size: 15px; letter-spacing: 0.5; margin-top: -5px;
+}
+.top span i {
+  font-size: 45px; height: auto; margin-right: 15px; position: relative; top: 12px;
+}
+.left_service_area .top span p {
+    display: inline-block; font-size: 17px;
+}
+.left_service_area .bottom p {
+    line-height: 1.5; font-size: 15px; letter-spacing: 0.5;
+}
+.bottom span i {
+  font-size: 45px; height: auto; margin-right: 15px; margin-top: 20px;
+  position: relative; top: 12px;
+}
+.left_service_area .bottom span p {
+    display: inline-block; font-size: 17px;
+}
+.btn-fourth {
+    outline: none; background: #f2f2f2; border: none; font-size: 15px; cursor: pointer; color: #ba2e1f; margin-left: 140px;
+}
+.btn-fourth:hover {
+    color: #000;
+}
+
+/* ===================== Contact Area ======================= */
+
+.container6 {
+    width: 90%; 
+}
+#contact_area {
+    background: #fff; padding: 25px;
+}
+.inner_contact_area {
+    display: flex; flex-direction: row; justify-content: space-evenly;
+}
+
+/* ===================== Tweet Area ======================= */
+
+.latest_tweets {
+    margin-left: 5%; width: 25%; display: block; border-top: 1px solid #000;
+}
+.latest_tweets h3 {
+    color: #1f1f1f;
+}
+.latest_tweets p {
+    line-height: 1.2; letter-spacing: 0.5px;
+}
+.latest_tweets p b {
+    color: #ba2e1f;
+}
+
+/* ===================== Links Area ======================= */
+
+.quick_links {
+    margin-left: 5%; width: 25%; display: block; border-top: 1px solid #000;
+}
+.quick_links h3 {
+    color: #1f1f1f; margin-left: 21px;
+}
+.quick_links ul li {
+    margin-bottom: 5px; border-bottom: 1px solid #ccc; padding-bottom: 5px;
+}
+.quick_links ul li a {
+    text-decoration: none; color: #1f1f1f; font-size: 14px;
+}
+
+/* ===================== Blog Area ======================= */
+
+.latest_blog {
+    margin-left: 5%; width: 25%; display: block; border-top: 1px solid #000;
+}
+.latest_blog h3 {
+    color: #1f1f1f;
+}
+.latest_blog .blog .head {
+    font-size: 13px;
+}
+.latest_blog .blog .para {
+    line-height: 1.2; letter-spacing: 0.5px;
+}
+.latest_blog p b {
+    color: #ba2e1f;
+}
+.latest_blog p .bnew {
+    color: #1f1f1f; font-size: 17px;
+}
+.latest_blog .blog button {
+    outline: none; border: none; background-color: #fff; cursor: pointer; color: #ba2e1f;
+    padding: 5px; margin-left: 60%;
+}
+
+/* ===================== Contact Us Area ======================= */
+
+.contact_us {
+    margin-left: 5%; width: 25%; display: block; border-top: 1px solid #000;
+}
+.contact_us h3 {
+    color: #1f1f1f; margin-bottom: 30px;
+}
+.contact_us form {
+    width: 100%;
+}
+.contact_us form .input_type {
+    width: 100%; margin-bottom: 5%; padding: 6px; background-color: #f2f2f2;
+    border: 1px solid #ccc; border-radius: 7px; outline: none;
+}
+.contact_us form .btn {
+    padding: 7px; width: 30%; font-size: 14px; border: 1px solid #ccc; border-radius: 7px; background: #f2f2f2; color: #ba2e1f; font-weight: normal; cursor: pointer;
+}
+.contact_us form .btn:hover {
+    color: #000; background: #fff;
+}
+
+/* ===================== Footer Area ======================= */
+footer {
+    background: #f2f2f2; padding: 10px;
+}
+footer p {
+    text-align: center; font-size: 16px; color: #1f1f1f;
+}

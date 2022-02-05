@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Receipt</title>
+    <style>
+        table {
+            width: 700px;
+            margin-top: 50px;
+            margin-left: 300px;
+        }
+        table, td {
+            border: 1px solid lightpink;
+            border-collapse: collapse;
+            font-size: 24px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr style="background-color: lightcoral;"> 
+            <td colspan="3">
+                <b>Invoice #12345ABC</b>
+            </td>
+            <td><b>18 July 2021</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Pay To:<br>
+                The Tech Park<br>
+                123 Willow Street<br>
+                Boulevard, L.A - 567892<br>
+            </td>
+            <td colspan="4">
+                Customer:<br>
+                John Lark<br>
+                Dummy Apartments<br>
+                276 Main Street<br>
+                Boulevard, L.A - 567892<br>
+            </td>
+        </tr>
+        <tr style="font-weight: bold; background-color: lightsalmon;">
+            <td>Name/Description</td>
+            <td>Qty.</td>
+            <td>MRP</td>
+            <td>Amount</td>
+        </tr>
+        <tr >
+            <td>Biryani</td>
+            <td>3</td>
+            <td>400</td>
+            <td>1200</td>
+        </tr>
+        <tr>
+            <td>Chocolate Shake</td>
+            <td>3</td>
+            <td>200</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="font-weight: bold; background-color: lightseagreen;">Subtotal:</td>
+            <td>1800</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-weight: bold; background-color: lightgoldenrodyellow;">Tax</td>
+            <td>10%</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="font-weight: bold; background-color: lightskyblue;">Grand Total:</td>
+            <td>Rs. 1620</td>
+        </tr>
+    </table>
+</body>
+</html>

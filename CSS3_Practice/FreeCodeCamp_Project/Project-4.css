@@ -1,0 +1,28 @@
+body {
+    margin: 0; padding: 0; font-family: 'Noto Serif', serif;
+}
+/* header {
+    position: fixed; top: 0; left: 0; overflow: hidden; padding: 30px; width: 300px; height: 100vh; display: block; float: left;
+} */
+#main-item {
+    display: flex; flex-direction: row; justify-content: space-evenly; width: 100%;
+}
+#left-section {
+    width: 30%; background-color: white; 
+}
+#right-section {
+    width: 100%; background-color: lightgray; padding: 0 35px;
+}
+#left-section h4 { border-top: 1px solid black; padding-top: 15px; font-size: 16px; padding-left: 25px; 
+}
+/* #left-section h4:last-of-type {
+    border-bottom: 0; 
+} */
+#left-section h4 a {
+    text-decoration: none; color: #8b8b99; font-weight: 500;
+}
+#left-section nav h2 { padding-bottom: 5px; font-size: 28px; padding-left: 20px;  
+}
+/* .left-part {
+    overflow: scroll;
+} */

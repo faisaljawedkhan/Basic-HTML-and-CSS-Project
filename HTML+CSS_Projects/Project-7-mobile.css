@@ -1,0 +1,17 @@
+@media screen and (max-width: 1344px) {
+    #navbar {
+        height: 238px;
+        flex-direction: column;
+    }
+    .item1 {
+        justify-content: center;
+    }
+    .item2 {
+        margin-left: 522px;
+        margin: auto;
+    }
+    #logo{
+        justify-content: center;
+        margin-top: 5px;
+    }
+}

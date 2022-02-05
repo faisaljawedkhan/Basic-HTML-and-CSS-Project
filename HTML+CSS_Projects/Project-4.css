@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: left;
+    width: 550px;
+    margin: 30vh auto;
+   background-color: white;
+}
+.container p a {
+   text-decoration: none;
+   color: orange;
+}
+.container h1 {
+    font-size: 40px;
+}
+.container p {
+   font-size: 18px;
+ }

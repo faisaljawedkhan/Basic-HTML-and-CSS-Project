@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ************ NavBar Section ****************** */
+
+
+#logo {
+    display: flex;
+}
+
+#logo img {
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex; flex-direction: row;
+    justify-content: flex-start;
+    width: 85vw; margin: 0 auto;
+    background-color: #81ecec;
+    border-radius: 14px;
+    opacity: 0.8;
+    padding: 3px 0;
+    position: sticky; top: 0px; height: 85px;
+}
+
+.item1 {
+    display: flex; flex-direction: row; justify-content: flex-start; align-items: center;
+}
+.item1 li {
+    list-style: none; margin: 0 18px;
+}
+.item1 li a {
+    text-decoration: none; color: #000; font-weight: 600;
+    font-size: 18px;
+}
+.item1 li a:hover {
+    color: rgb(219, 31, 31); font-weight: bolder;
+}
+.item2 {
+    display: flex; flex-direction: row; align-items: center;
+    justify-items: right; margin-left: 350px;
+}
+.item2 li {
+    list-style: none; margin: 0 7px;
+}
+.item2 li a {
+    text-decoration: none; color: #000; font-weight: 600;
+    font-size: 18px;
+}
+.item2 li a:hover i {
+    background: rgb(219, 31, 31);
+}
+.item2 li a i {
+    width: 35px; height: 35px; padding-top: 8px;
+    background: #182C61; color: #fff; display: block; text-align: center; border-radius: 50%;
+    transition: 0.3s ease all;   
+}
+
+/* ************Home Section ****************** */
+
+#home {
+    display: flex;
+    flex-direction: column; justify-content: center;
+    align-items: center; padding: 3px 200px;
+    height: 85vh; width: 100%;
+}
+#home::before {
+    content: ""; position: absolute;
+    background: url('/images/image-1.jpg') no-repeat center center/cover; height: 100%; top: 0px; left: 0px;
+    width: 100%; z-index: -1; opacity: 0.35;
+}
+#home h1 {
+    font-size: 40px; letter-spacing: 0.8px; margin-bottom: 5px; 
+}
+#home p {
+    line-height: 1.7; letter-spacing: 0.7px; font-weight: 1000; 
+}
+.btn {
+    margin-top: 10px; width: 125px; height: 40px;
+    padding: 10px; font-size: 16px; outline: none;
+    border: 2px solid #2C3A47; cursor: pointer;
+    background: #fff; font-weight: 600;
+    border-radius: 9px; letter-spacing: 0.7px;
+}
+.btn:hover {
+    background: #000; color: #fff;
+}
+
+/* ************ Services Section ****************** */
+
+#services-container {
+    margin: 1.5em;
+}
+.secondary {
+    margin: 1.3em 0; font-size: 40px; letter-spacing: 0.9px;
+    text-align: center;
+}
+#services {
+    display: flex;
+}
+.box {
+    width: 32vw; height: 45vw;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 2em;
+    margin: 0 5px;
+    border-radius: 1.7em;
+    background: #f2f2f2;
+    margin-bottom: 1.3em;
+}
+.box img {
+    height: 11em; margin: auto; display: block;
+    
+}
+.box h2 {
+    text-align: center; margin: 21px 0; font-size: 25px;
+    font-weight: 600;
+}
+.box p {
+    text-align: center; line-height: 1.4;
+}
+
+/* ************ Client Section ****************** */
+
+#client-section{
+    height: auto; 
+}
+
+.h-primary {
+    font-size: 40px; letter-spacing: 0.9px;
+    text-align: center; padding-top: 25px;
+}
+#clients {
+    display: flex; justify-content: center; align-items: center; margin: 30px 0; 
+    
+}
+.client-item img {
+    height: 9.5em; margin: 0 45px;
+    cursor: pointer;
+}
+
+/* ************ Contact Section ****************** */
+
+#contact{
+    background: url('/images/contact-us.jpg') no-repeat center center/cover; height: 82vh; top: 0px; left: 0px;
+    width: 100%; 
+}
+.form-group {
+    display: flex; flex-direction: column; width: 32em;
+    justify-content: center; text-align: left;
+    margin: 1.25em auto;
+}
+form .form-group label {
+    font-size: 17px; font-weight: 500; letter-spacing: 0.6px;
+}
+form .form-group input {
+    font-size: 17px; height: 1.8em; padding: 15px;
+    outline: none; border: 2px solid #2C3A47;
+    border-radius: 7px;
+}
+form .form-group textarea {
+    padding: 15px;
+    outline: none; border: 2px solid #2C3A47;
+    border-radius: 7px;
+}
+
+/* ************ Footer Section ****************** */
+
+footer {
+    height: 10vh; width: 100%;
+}
+footer .center {
+    text-align: center; padding: 25px 0;
+    background: #04213b; color: #fff; font-size: 16px;
+    letter-spacing: 1px;
+}
